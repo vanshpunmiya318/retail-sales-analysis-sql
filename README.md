@@ -1,6 +1,11 @@
-retail-sales-analysis-sql  Retail Sales Analysis Using MySQL
-An end-to-end SQL data analytics project analyzing over 1 million retail transactions to uncover sales trends, customer behavior, and business insights.
+Retail Sales Analysis Using MySQL
 
-This project analyzes the Online Retail II dataset containing over 1 million transactions from a UK-based online retailer between January 2009 and December 2011.
-The objective is to transform raw transactional data into meaningful business insights using MySQL. The project follows a structured analytics workflow, including data import, data auditing, data cleaning, exploratory data analysis (EDA), and business-focused SQL analysis.
-The analysis answers practical business questions related to sales performance, customer behavior, product performance, and country-level trends.
+An end-to-end SQL analytics project exploring over 1 million retail transactions to identify sales trends, customer purchasing behavior, product performance, and actionable business insights.
+
+Project Overview
+
+This project analyzes the Online Retail II dataset, which contains transactional data from a UK-based online retailer between January 2009 and December 2011.
+
+Using MySQL, the project follows a structured analytics workflow that includes data import, data auditing, data cleaning, exploratory data analysis (EDA), and business-focused SQL analysis.
+
+The goal is to answer real-world business questions related to revenue trends, customer behavior, product performance, and geographic sales distribution while demonstrating practical SQL skills used in data analytics.
