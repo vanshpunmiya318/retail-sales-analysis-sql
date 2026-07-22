@@ -32,19 +32,19 @@ The dataset includes invoice-level information such as product details, quantiti
 | Version Control | Git & GitHub |
 | Dataset | Online Retail II |
 
-##Data Cleaning Process
+## Data Cleaning Process
 
 Before performing the analysis, the dataset was audited and cleaned to improve data quality and ensure reliable results.
 
 The following data preparation steps were completed:
 
-Imported and combined multiple yearly datasets into a single MySQL table.
-Converted raw invoice date values into a standardized datetime format using STR_TO_DATE().
-Identified and handled missing values in customer IDs and product descriptions.
-Excluded invalid records such as stock code B, empty descriptions, and non-product transactions (e.g., POSTAGE, DOTCOM POSTAGE, and Manual) where appropriate.
-Separated sales and returns by treating positive quantities as purchases and negative quantities as returned items.
-Used conditional aggregation (CASE WHEN) to calculate gross revenue, return value, and net revenue.
-Validated the cleaned dataset before performing business analysis.
+- Imported and combined multiple yearly datasets into a single MySQL table.
+- Converted raw invoice date values into a standardized datetime format using STR_TO_DATE().
+- Identified and handled missing values in customer IDs and product descriptions.
+- Excluded invalid records such as stock code B, empty descriptions, and non-product transactions (e.g., POSTAGE, DOTCOM POSTAGE, and Manual) where appropriate.
+- Separated sales and returns by treating positive quantities as purchases and negative quantities as returned items.
+- Used conditional aggregation (CASE WHEN) to calculate gross revenue, return value, and net revenue.
+- Validated the cleaned dataset before performing business analysis.
 
 ## Business Questions
 
