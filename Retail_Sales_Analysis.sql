@@ -4,7 +4,7 @@ Retail Sales Analysis Using MySQL
 
 Dataset: Online Retail II
 Database: MySQL
-Author: Your Name (optional)
+Author: Vansh
 
 =====================================================
 */
