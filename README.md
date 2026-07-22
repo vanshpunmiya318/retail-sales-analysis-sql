@@ -4,7 +4,7 @@ An end-to-end SQL analytics project exploring over 1 million retail transactions
 
 ## Project Overview
 
-This project analyzes the Online Retail II dataset, a publicly available transactional dataset containing records from a UK-based online retailer, which contains transactional data from a UK-based online retailer between January 2009 and December 2011. Using MySQL, the project follows a structured analytics workflow that includes data import, data auditing, data cleaning, exploratory data analysis (EDA), and SQL-based business analysis. The goal is to answer real-world business questions related to revenue trends, customer behavior, product performance, and geographic sales distribution while demonstrating practical SQL skills used in data analytics.
+This project analyzes the Online Retail II dataset, a publicly available transactional dataset containing records from a UK-based online retailer, which contains transactional data between January 2009 and December 2011. Using MySQL, the project follows a structured analytics workflow that includes data import, data auditing, data cleaning, exploratory data analysis (EDA), and SQL-based business analysis. The goal is to answer real-world business questions related to revenue trends, customer behavior, product performance, and geographic sales distribution while demonstrating practical SQL skills used in data analytics.
 
 ## Dataset Overview
 
