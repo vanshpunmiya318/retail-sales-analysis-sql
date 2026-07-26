@@ -1,10 +1,10 @@
-# Retail Sales Analysis Using MySQL
+# Retail Sales Analysis Using MySQL & Power BI
 
-An end-to-end SQL analytics project exploring over 1 million retail transactions to identify sales trends, customer purchasing behavior, product performance, and actionable business insights.
+An end-to-end data analytics project analysing over 1 million retail transactions using MySQL for data analysis and Power BI for interactive dashboard development to uncover sales trends, customer purchasing behaviour, product performance, and actionable business insights.
 
 ## Project Overview
 
-This project analyzes the Online Retail II dataset, a publicly available transactional dataset from a UK-based online retailer covering the period from January 2009 and December 2011. Using MySQL, the project follows a structured analytics workflow that includes data import, data auditing, data cleaning, exploratory data analysis (EDA), and SQL-based business analysis. The goal is to answer real-world business questions related to revenue trends, customer behavior, product performance, and geographic sales distribution while demonstrating practical SQL skills used in data analytics.
+This project analyses the Online Retail II dataset, a publicly available transactional dataset from a UK-based online retailer covering transactions between January 2009 and December 2011. Using MySQL for data cleaning and business analysis and Power BI for interactive dashboard development, the project follows a structured analytics workflow including data import, data auditing, data cleaning, exploratory data analysis (EDA), SQL-based business analysis, KPI development, and dashboard visualisation. The objective is to transform raw transactional data into meaningful business insights by analysing revenue trends, customer purchasing behaviour, product performance, and geographic sales distribution while demonstrating practical SQL, Power BI, and data visualisation skills used in modern business intelligence.
 
 ## Dataset Overview
 
@@ -28,6 +28,7 @@ The dataset includes invoice-level information such as product details, quantiti
 |----------|------|
 | Database | MySQL |
 | SQL Client | MySQL Workbench |
+| Business Intelligence | Power BI |
 | Language | SQL |
 | Version Control | Git & GitHub |
 | Dataset | Online Retail II |
@@ -70,20 +71,27 @@ The SQL analysis revealed several important business insights:
 - Customer purchasing behaviour varied considerably, with some customers placing a large number of orders while others generated exceptionally high average order values.
 - Product returns had a measurable impact on revenue, making it important to evaluate both gross and net sales rather than revenue alone.
 
+## Dashboard Preview
+
+![Retail Sales Dashboard](Dashboard.png)
+
 ## How to Run the Project
 
 1. Download the Online Retail II dataset.
 2. Import the dataset into MySQL using MySQL Workbench.
-3. Create the required database and import the cleaned transaction table.
-4. Open the Retail_Sales_Analysis.sql file.
-5. Execute each SQL query to reproduce the analysis and business insights presented in this project.
+3. Create the required database and import the transaction data.
+4. Open and execute the `Retail Sales Analysis.sql` script to reproduce the data cleaning and business analysis.
+5. Open the `Retail Sales Dashboard.pbix` file in Power BI Desktop.
+6. Refresh the data source if required and explore the interactive dashboard.
+
+## Future Improvements
 
 ## Future Improvements
 
 Potential enhancements for this project include:
 
-- Develop an interactive Power BI dashboard to visualize key business insights.
-- Perform customer segmentation using techniques such as RFM analysis.
-- Create SQL views and stored procedures to simplify reporting.
-- Automate the data import and cleaning process for future datasets.
-- Expand the analysis with additional business KPIs and visualizations.
+- Perform customer segmentation using RFM (Recency, Frequency, Monetary) analysis.
+- Build sales forecasting models to predict future revenue trends.
+- Create SQL views and stored procedures to simplify reporting and improve reusability.
+- Automate the data import and cleaning process using ETL workflows.
+- Enhance the Power BI dashboard with drill-through pages, bookmarks, and advanced interactivity.
