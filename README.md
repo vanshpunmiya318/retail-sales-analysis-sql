@@ -75,6 +75,19 @@ The SQL analysis revealed several important business insights:
 
 ![Retail Sales Dashboard](Dashboard.png)
 
+## Skills Demonstrated
+
+- SQL data cleaning and transformation
+- Exploratory Data Analysis (EDA)
+- Data validation and quality assurance
+- Business intelligence reporting
+- Power BI dashboard development
+- DAX measure creation
+- KPI design and performance reporting
+- Data visualisation
+- Business insight generation
+- Git & GitHub version control
+
 ## How to Run the Project
 
 1. Download the Online Retail II dataset.
@@ -84,7 +97,6 @@ The SQL analysis revealed several important business insights:
 5. Open the `Retail Sales Dashboard.pbix` file in Power BI Desktop.
 6. Refresh the data source if required and explore the interactive dashboard.
 
-## Future Improvements
 
 ## Future Improvements
 
