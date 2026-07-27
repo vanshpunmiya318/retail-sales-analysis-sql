@@ -4,7 +4,7 @@ An end-to-end data analytics project analysing over 1 million retail transaction
 
 ## Project Overview
 
-This project analyses the Online Retail II dataset, a publicly available transactional dataset from a UK-based online retailer covering transactions between January 2009 and December 2011. Using MySQL for data cleaning and business analysis and Power BI for interactive dashboard development, the project follows a structured analytics workflow including data import, data auditing, data cleaning, exploratory data analysis (EDA), SQL-based business analysis, KPI development, and dashboard visualisation. The objective is to transform raw transactional data into meaningful business insights by analysing revenue trends, customer purchasing behaviour, product performance, and geographic sales distribution while demonstrating practical SQL, Power BI, and data visualisation skills used in modern business intelligence.
+This project analyses the Online Retail II dataset, a publicly available transactional dataset from a UK-based online retailer covering transactions between January 2009 and December 2011. Using MySQL for data cleaning and business analysis and Power BI for interactive dashboard development, the project follows a structured analytics workflow including data import, data auditing, data cleaning, exploratory data analysis (EDA), SQL-based business analysis, KPI development, and dashboard visualisation. The objective is to transform raw transactional data into meaningful business insights by analysing revenue trends, customer purchasing behaviour, product performance, and geographic sales distribution.
 
 ## Dataset Overview
 
